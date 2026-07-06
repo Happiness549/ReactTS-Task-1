@@ -8,37 +8,28 @@
 .content-text{
     position: absolute;
     top: 60px;
-    right: 100px;
     color: black;
+    text-align: center;
 }
 .content{
     position: relative;
 }
 
-.content-button{
-    background-color: pink;
-    border: none;
-    
-    padding: 10px 20px;
-    margin-top: 20px;
-    
+.content-span{
+    background-color: white;
+    padding: 5px 10px;   
 }
 .content2{
     background-color: lightpink;
     width: 100vw;
+    display: flex;
+    gap: 16px;
 }
 
 .content2-title{
-    text-align: center;
-    
-    font-size: 30px;  
+    color: red;
 }
 
-.content2{
-    display: flex;
-    gap: 16px;
-    
-}
 
 .card{
     flex: 1;  
@@ -48,8 +39,17 @@
 
 .card img{
     width: 300px;
-    height: auto;
-     
+    height: 300px;  
 }
+.content3{
+    width: 100vw;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.content3 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
 
-
+}

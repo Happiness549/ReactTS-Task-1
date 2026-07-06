@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import { Text } from './Text/Text'
+import { Text } from '../Text/Text'
 
 export const Navbar = () => {
   return (
