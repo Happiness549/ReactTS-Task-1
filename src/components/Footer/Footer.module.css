@@ -1,0 +1,22 @@
+footer{
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    bottom: 0;
+    background-color: beige;
+}
+
+.footer-container{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+
+}
+footer{
+    flex: 1;
+}
+
+.footer img{
+    width: 150px;
+    height: 150px;
+}
