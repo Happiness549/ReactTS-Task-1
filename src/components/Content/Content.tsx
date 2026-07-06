@@ -28,7 +28,8 @@ export const Content = () => {
       
       <div className={styles['card']}>
         <img  src={creamCake} alt="White Cake"/>
-        <Text variant='h2'>Custom Cakes</Text>
+        <div className={styles['card-content']}>
+          <Text variant='h2'>Custom Cakes</Text>
            <Text variant='p' >
             classic butter cake but with Japanese techniques applied for the most plush, <br />
              soft and moist yellow cake like you’ve never had before. <br />
@@ -37,29 +38,38 @@ export const Content = () => {
            </Text>
         <button className={styles['content-button']}>Order Now</button>
         </div>
+        
+        </div>
 
         <div className={styles['card']}>
           <img  src={whiteCake} alt="White Cake"/>
-          <Text variant='h2'>Macaroins</Text>
-          <Text variant='p'>
-             This vanilla strawberry cake is going to be your new go-to birthday cake! <br />
-            It has soft and fluffy vanilla cake layers sandwiched with a homemade strawberry filling. <br />
-            It’s then frosted with strawberry buttercream that’s naturally pink! This vanilla cake with fresh <br />
-            strawberry filling is perfect all spring and summer long 
+          <div className={styles['card-content']}>
+             <Text variant='h2'>Macaroins</Text>
+             <Text variant='p'>
+               This vanilla strawberry cake is going to be your new go-to birthday cake! <br />
+               It has soft and fluffy vanilla cake layers sandwiched with a homemade strawberry filling. <br />
+               It’s then frosted with strawberry buttercream that’s naturally pink! This vanilla cake with fresh <br />
+               strawberry filling is perfect all spring and summer long 
           </Text>
           <button className={styles['content-button']}>Order Now</button>
+          </div>
+         
         </div>
 
 
         <div className={styles['card']}>
             <img src={cupCake} alt="White Cake"/>
-            <Text variant='h2'>Cupcakes collection</Text>
-             <Text variant='p'>
-               News flash: it's a new, limited edition flavour! <br />
-               A delicious strawberry buttercream filling, sandwiched between two perfectly <br />
-               baked lilac shells & decorated with sprinkles in the shape of a heart.
+            <div className={styles['card-content']}>
+                <Text variant='h2'>Cupcakes collection</Text>
+                <Text variant='p'>
+                  News flash: it's a new, limited edition flavour! <br />
+                  A delicious strawberry buttercream filling, sandwiched between two perfectly <br />
+                  baked lilac shells & decorated with sprinkles in the shape of a heart.
              </Text>
             <button className={styles['content-button']}>Order Now</button>
+
+            </div>
+          
         </div>
 
         </div>
