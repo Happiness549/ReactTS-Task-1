@@ -8,6 +8,8 @@ import cakeCake from '../../assets/cake-cake.jpg'
 import pinkMacans from '../../assets/pink-macans.jpg'
 import styles from './Content.module.css'
 import { Text } from '../Text/Text'
+import {Button} from '../Button/Button'
+
 
 export const Content = () => {
   return (
@@ -16,74 +18,73 @@ export const Content = () => {
       
         <img className={styles['cake-image']} src={pinkCake} alt="Pink Cake"/>
         <div className={styles['content-text']}>
-        <Text variant='h1' className={styles['content-title']}>delight in</Text>  
-        <Text variant='p'>PERTICU IN FUERY BITE!</Text> 
-        <Text variant='span' className={styles['content-span']}>open now</Text> 
-    
-        </div>   
+         <Text variant='h1' className={styles['content-title']}>delight in</Text>  
+         <Text variant='p'>PERTICU IN FUERY BITE!</Text> 
+         <button className={styles['contentBtn']}>Open Now</button>
+        </div>      
     </div>
 
     <div className={styles['content2']}>
-       <Text variant='h1' className={styles['content2-title']}>Delight in Every Bite!</Text>
-      
+      <div className={styles['content2-title']} >
+        <Text variant='h1' >Delight in Every Bite!</Text>
+      </div>
+         
       <div className={styles['card']}>
         <img  src={creamCake} alt="White Cake"/>
-        <div className={styles['card-content']}>
-          <Text variant='h2'>Custom Cakes</Text>
+      </div>
+
+
+      <div className={styles['card']}>
+        <img  src={whiteCake} alt="White Cake"/> 
+      </div>
+
+        <div className={styles['card']}>
+          <img src={cupCake} alt="White Cake"/>       
+        </div>
+    </div>
+
+      <div className={styles['content2-text']}>
+
+          <div className={styles['content2-text1']} >
+           <Text variant='h2'>Custom Cakes</Text>
            <Text variant='p' >
             classic butter cake but with Japanese techniques applied for the most plush, <br />
              soft and moist yellow cake like you’ve never had before. <br />
              This professional bakery style cake stays fresh and moist for 4 days — <br />
              that’s unheard of! Use the same batter for perfect Vanilla Cupcakes. 
            </Text>
-        <button className={styles['content-button']}>Order Now</button>
-        </div>
-        
-        </div>
+           <button className={styles['button']}>Order Now</button>
+          </div>
 
-        <div className={styles['card']}>
-          <img  src={whiteCake} alt="White Cake"/>
-          <div className={styles['card-content']}>
-             <Text variant='h2'>Macaroins</Text>
+        <div className={styles['content2-text1']}>
+         <Text variant='h2'>Macaroins</Text>
              <Text variant='p'>
                This vanilla strawberry cake is going to be your new go-to birthday cake! <br />
                It has soft and fluffy vanilla cake layers sandwiched with a homemade strawberry filling. <br />
                It’s then frosted with strawberry buttercream that’s naturally pink! This vanilla cake with fresh <br />
                strawberry filling is perfect all spring and summer long 
-          </Text>
-          <button className={styles['content-button']}>Order Now</button>
-          </div>
-         
+            </Text>
+            <button className={styles['button']}>Order Now</button>
         </div>
-
-
-        <div className={styles['card']}>
-            <img src={cupCake} alt="White Cake"/>
-            <div className={styles['card-content']}>
-                <Text variant='h2'>Cupcakes collection</Text>
+          
+          <div className={styles['content2-text1']}>
+            <Text variant='h2'>Cupcakes collection</Text>
                 <Text variant='p'>
                   News flash: it's a new, limited edition flavour! <br />
                   A delicious strawberry buttercream filling, sandwiched between two perfectly <br />
                   baked lilac shells & decorated with sprinkles in the shape of a heart.
              </Text>
-            <button className={styles['content-button']}>Order Now</button>
+             <button className={styles['buttonT']}>Order Now</button>
+          </div>
 
-            </div>
-          
-        </div>
-
-        </div>
+      </div>
 
         <div className={styles['content3']}>
           <img src={holiday} alt="Holiday sale image"/>
           <img src={cakeCake} alt="Biscuits" />
           <img src={pinkMacans} alt=" Pink cake"/>
         </div>
-        
-        
     
     </>
-
-  
   )
 }

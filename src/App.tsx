@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import {Text} from './components/Text/Text'
 import { Content } from './components/Content/Content'
 import {Footer} from './components/Footer/Footer'
+import {Button} from './components/Button/Button'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Content/>
       <Text />
+      <Button Text={'submit'}/>
       <Footer />
     </div>
   )
