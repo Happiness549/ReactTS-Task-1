@@ -15,17 +15,16 @@ export const Content = () => {
   return (
     <>
     <div className={styles['content']}>
-      
         <img className={styles['cake-image']} src={pinkCake} alt="Pink Cake"/>
         <div className={styles['content-text']}>
-         <Text variant='h1' className={styles['content-title']}>delight in</Text>  
-         <Text variant='p'>PERTICU IN FUERY BITE!</Text> 
-         <button className={styles['contentBtn']}>Open Now</button>
+          <Text variant='h1'>delight in</Text>  
+          <Text variant='p'>PERTICU IN FUERY BITE!</Text> 
+          <button className={styles['contentBtn']}>Open Now</button>
         </div>      
     </div>
 
     <div className={styles['content2']}>
-      <div className={styles['content2-title']} >
+      <div className={styles['content2-title']}  >
         <Text variant='h1' >Delight in Every Bite!</Text>
       </div>
          
@@ -54,6 +53,7 @@ export const Content = () => {
              that’s unheard of! Use the same batter for perfect Vanilla Cupcakes. 
            </Text>
            <button className={styles['button']}>Order Now</button>
+           <Button text={'click me'}/>
           </div>
 
         <div className={styles['content2-text1']}>
@@ -80,6 +80,10 @@ export const Content = () => {
       </div>
 
         <div className={styles['content3']}>
+          <div className={styles['content3-title']}>
+            <Text variant='h1'>Custom Collection</Text> 
+          </div>
+          
           <img src={holiday} alt="Holiday sale image"/>
           <img src={cakeCake} alt="Biscuits" />
           <img src={pinkMacans} alt=" Pink cake"/>

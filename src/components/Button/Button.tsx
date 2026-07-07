@@ -2,15 +2,15 @@
 import React from 'react'
 
 interface Props  {
-    Text: string | number;
+    text: string | number;
     style?: React.CSSProperties;
 }
 
-export const Button: React.FC<Props> = ({ Text, style }) => {
+export const Button: React.FC<Props> = ({ text, style }) => {
   return (
     <div>
     <button style={style}>
-      {Text}
+      {text}
     </button>
     </div>
   )

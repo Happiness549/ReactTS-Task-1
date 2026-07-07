@@ -16,6 +16,7 @@ export const Navbar = () => {
                <a href="/#" className={styles.link}>Contact</a>
                <div className={styles.contact}>
                 <button className={styles.contact}>06868 8989 Now</button>
+                
                </div>
             </div>
 

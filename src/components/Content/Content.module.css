@@ -5,15 +5,18 @@
     display: block;
     
 }
+
+.content{
+    position: relative; 
+}
+
 .content-text{
     position: absolute;
     top: 60px;
     color: black;
     text-align: center;
     justify-content: center;
-}
-.content{
-    position: relative;
+    align-items: center;
 }
 
 .contentBtn{
@@ -39,13 +42,10 @@
 }
 
 .content2-title{
-    text-align: center;
-    justify-content: center;
+    color: red;  
+    text-align: center; 
     
 }
-    
-
-
 
 .card{
     flex: 1;  
@@ -60,7 +60,7 @@
 }
 
 .content2-text{
-    text-align: center;
+    align-items: center;
      display : flex;
      background-color: beige;
      width: 100vw;
@@ -87,4 +87,7 @@
     width: 300px;
     height: 300px;
     margin-top: 20px;
+}
+.content3-title{
+    
 }

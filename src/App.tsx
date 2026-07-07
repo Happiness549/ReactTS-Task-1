@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Content/>
       <Text />
-      <Button Text={'submit'}/>
+      <Button text={'submit'}/>
       <Footer />
     </div>
   )
