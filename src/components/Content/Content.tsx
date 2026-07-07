@@ -1,5 +1,6 @@
 import React from 'react'
 import pinkCake from '../../assets/pink-cake.jpg'
+import cake from '../../assets/cake.jpg'
 import creamCake from '../../assets/cream-cake.jpg'
 import whiteCake from '../../assets/white-cake.jpg'
 import cupCake from '../../assets/cup-cake.jpg'
@@ -15,7 +16,7 @@ export const Content = () => {
   return (
     <>
     <div className={styles['content']}>
-        <img className={styles['cake-image']} src={pinkCake} alt="Pink Cake"/>
+        <img className={styles['cake-image']} src={cake} alt="Pink Cake"/>
         <div className={styles['content-text']}>
           <Text variant='h1'>delight in</Text>  
           <Text variant='p'>PERTICU IN FUERY BITE!</Text> 
@@ -27,19 +28,22 @@ export const Content = () => {
       <div className={styles['content2-title']}  >
         <Text variant='h1' >Delight in Every Bite!</Text>
       </div>
-         
-      <div className={styles['card']}>
-        <img  src={creamCake} alt="White Cake"/>
-      </div>
 
+      <div  className={styles['cards']}>
+         <div className={styles['card']}>
+           <img  src={creamCake} alt="White Cake"/>
+         </div>
 
-      <div className={styles['card']}>
-        <img  src={whiteCake} alt="White Cake"/> 
-      </div>
+         <div className={styles['card']}>
+          <img  src={whiteCake} alt="White Cake"/> 
+         </div>
 
-        <div className={styles['card']}>
+         <div className={styles['card']}>
           <img src={cupCake} alt="White Cake"/>       
-        </div>
+         </div>
+
+      </div>
+         
     </div>
 
       <div className={styles['content2-text']}>
@@ -83,10 +87,14 @@ export const Content = () => {
           <div className={styles['content3-title']}>
             <Text variant='h1'>Custom Collection</Text> 
           </div>
+
+          <div className={styles['content3-cards']}>
+            <img src={holiday} alt="Holiday sale image"/>
+            <img src={cakeCake} alt="Biscuits" />
+            <img src={pinkMacans} alt=" Pink cake"/>
+          </div>
           
-          <img src={holiday} alt="Holiday sale image"/>
-          <img src={cakeCake} alt="Biscuits" />
-          <img src={pinkMacans} alt=" Pink cake"/>
+        
         </div>
     
     </>
