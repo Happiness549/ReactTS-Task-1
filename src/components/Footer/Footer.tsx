@@ -17,14 +17,25 @@ export const Footer = () => {
         <div className={styles['footer']}>
             <img  src={heartImage} alt="heart Image"/>
         </div>
-        
-        <div className={styles['footer-image']}>
-            <Text variant='h4'> Follow us on social media</Text>
-            <img  src={facebook} alt="Facebook icon" className={styles['footer-img']}/>
-             <img  src={tikTok} alt="tikTok icon" className={styles['footer-img']}/>
-              <img  src={pinterest} alt="Pinterest icon" className={styles['footer-img']}/>
-            <Text variant='h'> copyright reserved © 2016</Text>
+
+        <div className={styles['icons']}>
+
+            <div className={styles['footer-h1']}>
+                <Text variant='h4' className={styles['footer-h1']}> Follow us on social media</Text>
+            </div>
+
+            <div className={styles['footer-icons']} style={{gap: '20px'}}>
+              <img  src={facebook} alt="Facebook icon" className={styles['footer-icon']} style={{gap: '20px'}}/>
+              <img  src={tikTok} alt="tikTok icon" className={styles['footer-icon']}/>
+              <img  src={pinterest} alt="Pinterest icon" className={styles['footer-icon']}/>
+            </div>
+           
+            <div>
+              <Text variant='p'> copyright reserved © 2016</Text>
+            </div>
+
         </div>
+        
     </footer>
   )
 }

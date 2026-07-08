@@ -15,8 +15,8 @@ export const Navbar = () => {
                <a href="/#" className={styles.link}>Parties</a>
                <a href="/#" className={styles.link}>Contact</a>
                <div className={styles.contact}>
-                <Button  className={styles['buttonT']} text={'06868 8989 Now'}/>
-                <button className={styles.contact}></button>
+                <Button  className={styles['.contact']} text={'06868 8989 Now'}/>
+                
                 
                </div>
             </div>
