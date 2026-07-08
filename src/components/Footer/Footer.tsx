@@ -18,6 +18,8 @@ export const Footer = () => {
             <img  src={heartImage} alt="heart Image"/>
         </div>
 
+       
+
         <div className={styles['icons']}>
 
             <div className={styles['footer-h1']}>

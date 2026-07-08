@@ -8,16 +8,21 @@ footer{
 }
 
 .footer-container{
+    border: 1px solid black;
     display: flex;
-    gap: 90px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 176px;
     justify-content: center;
+    margin: auto;
+    padding: 25px;
 
 }
 footer{
     flex: 1;
 }
 .footer-h1{
-    margin-bottom: 10px;
+    
     color: #DAC395;
 
 }
@@ -25,7 +30,7 @@ footer{
 .footer img{
     width: 200px;
     height: 100px;
-    margin-top: 50px;
+    
 
 }
 .icons{
