@@ -56,3 +56,11 @@ footer{
 .footer-icon:hover{
     opacity: 0.5; 
 }
+
+@media(max-width: 767px){
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}

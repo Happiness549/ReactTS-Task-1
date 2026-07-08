@@ -46,7 +46,7 @@ nav{
     color: black;
 }
 
-@media (max-width: 1023){
+@media (max-width: 1023px){
     nav{
         display: flex;
         flex-direction: column;

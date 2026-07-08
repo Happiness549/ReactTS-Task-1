@@ -19,7 +19,7 @@ export const Content = () => {
 
       <div  className={styles['cards']}>
          <div className={styles['card']}>
-           <img  src={creamCake} alt="White Cake"/>
+           <img  src={creamCake} alt="Creamy Cake"/>
          </div>
 
          <div className={styles['card']}>
@@ -27,7 +27,7 @@ export const Content = () => {
          </div>
 
          <div className={styles['card']}>
-          <img src={cupCake} alt="White Cake"/>       
+          <img src={cupCake} alt="Cup Cake"/>       
          </div>
 
       </div>
