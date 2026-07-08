@@ -1,6 +1,3 @@
-import React from 'react'
-import pinkCake from '../../assets/pink-cake.jpg'
-import cake from '../../assets/cake.jpg'
 import creamCake from '../../assets/cream-cake.jpg'
 import whiteCake from '../../assets/white-cake.jpg'
 import cupCake from '../../assets/cup-cake.jpg'
@@ -15,15 +12,6 @@ import Button from '../Button/Button'
 export const Content = () => {
   return (
     <>
-    <div className={styles['content']}>
-        <img className={styles['cake-image']} src={cake} alt="Pink Cake"/>
-        <div className={styles['content-text']}>
-          <Text variant='h1'>delight in</Text>  
-          <Text variant='p'>PERTICU IN FUERY BITE!</Text> 
-          <button className={styles['contentBtn']}>Open Now</button>
-        </div>      
-    </div>
-
     <div className={styles['content2']}>
       <div className={styles['content2-title']}  >
         <Text variant='h1' >Delight in Every Bite!</Text>
@@ -56,7 +44,7 @@ export const Content = () => {
              This professional bakery style cake stays fresh and moist for 4 days — <br />
              that’s unheard of! Use the same batter for perfect Vanilla Cupcakes. 
            </Text>
-           <Button  className={styles['']} text={'Order Now'}/>
+           <Button  className={styles['button']} text={'Order Now'}/>
           </div>
 
         <div className={styles['content2-text1']}>
@@ -67,7 +55,7 @@ export const Content = () => {
                It’s then frosted with strawberry buttercream that’s naturally pink! This vanilla cake with fresh <br />
                strawberry filling is perfect all spring and summer long 
             </Text>
-             <Button  className={styles['content2-text1']} text={'Order Now'}/>
+             <Button  className={styles['button']} text={'Order Now'}/>
         </div>
           
           <div className={styles['content2-text1']}>
@@ -83,6 +71,7 @@ export const Content = () => {
 
       </div>
 
+
         <div className={styles['content3']}>
           <div className={styles['content3-title']}>
             <Text variant='h1'>Custom Collection</Text> 
@@ -94,7 +83,6 @@ export const Content = () => {
             <img src={pinkMacans} alt=" Pink cake"/>
           </div>
           
-        
         </div>
     
     </>
