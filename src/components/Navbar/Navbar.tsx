@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Navbar.module.css'
 import { Text } from '../Text/Text'
-import {Button} from '../Button/Button'
+import Button from '../Button/Button'
 
 export const Navbar = () => {
   return (
@@ -15,7 +15,8 @@ export const Navbar = () => {
                <a href="/#" className={styles.link}>Parties</a>
                <a href="/#" className={styles.link}>Contact</a>
                <div className={styles.contact}>
-                <button className={styles.contact}>06868 8989 Now</button>
+                <Button  className={styles['buttonT']} text={'06868 8989 Now'}/>
+                <button className={styles.contact}></button>
                 
                </div>
             </div>

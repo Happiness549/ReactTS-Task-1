@@ -19,5 +19,21 @@ footer{
 
 .footer img{
     width: 200px;
-    height: 150px;
+
+}
+.footer-image{
+    background-color: #F8F8FF;
+    align-self: center;
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+    gap: 5px;
+    padding: 5px 5px;   
+    align-items: center;
+    opacity: 1;
+    transition: opacity o.3s ease-out;
+}
+.footer-img:hover{
+    opacity: 0.5; 
 }

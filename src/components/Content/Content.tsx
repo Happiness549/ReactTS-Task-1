@@ -9,7 +9,7 @@ import cakeCake from '../../assets/cake-cake.jpg'
 import pinkMacans from '../../assets/pink-macans.jpg'
 import styles from './Content.module.css'
 import { Text } from '../Text/Text'
-import {Button} from '../Button/Button'
+import Button from '../Button/Button'
 
 
 export const Content = () => {
@@ -56,8 +56,7 @@ export const Content = () => {
              This professional bakery style cake stays fresh and moist for 4 days — <br />
              that’s unheard of! Use the same batter for perfect Vanilla Cupcakes. 
            </Text>
-           <button className={styles['button']}>Order Now</button>
-           <Button text={'click me'}/>
+           <Button  className={styles['']} text={'Order Now'}/>
           </div>
 
         <div className={styles['content2-text1']}>
@@ -68,7 +67,7 @@ export const Content = () => {
                It’s then frosted with strawberry buttercream that’s naturally pink! This vanilla cake with fresh <br />
                strawberry filling is perfect all spring and summer long 
             </Text>
-            <button className={styles['button']}>Order Now</button>
+             <Button  className={styles['content2-text1']} text={'Order Now'}/>
         </div>
           
           <div className={styles['content2-text1']}>
@@ -78,7 +77,8 @@ export const Content = () => {
                   A delicious strawberry buttercream filling, sandwiched between two perfectly <br />
                   baked lilac shells & decorated with sprinkles in the shape of a heart.
              </Text>
-             <button className={styles['buttonT']}>Order Now</button>
+              <Button  className={styles['buttonT']} text={'Order Now'}/>
+            
           </div>
 
       </div>
