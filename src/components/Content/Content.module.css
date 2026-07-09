@@ -1,10 +1,4 @@
-.cake-image{
-    width: 100vw;
-    height: 600px;
-    margin-top: 50px;
-    display: block;
-    
-}
+
 
 .content{
     position: relative; 
@@ -28,12 +22,12 @@
     border: none;  
 }
 .button{
-    background-color: lightpink;
+    background-color:pink ;
     border: none;
     padding: 5px 10px;
 }
 .buttonT{
-    background-color: pink;
+    background-color: #FF69B4;
     padding: 5px 10px;
     border: none;
 }
@@ -105,6 +99,25 @@
 
 }
 
-.content3-title{
+@media(max-width: 767px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
+        max-width: 350px;
+    }
+
     
+}
+
+@media(max-width: 1023){
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 45%;
+    }
 }

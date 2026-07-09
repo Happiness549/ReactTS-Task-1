@@ -30,10 +30,29 @@ nav{
     cursor: pointer;
     
 }
+.link:hover{
+    transition-duration: 0.4s;
+    background-color: pink;
+    color: white;
+}
 
 .contact{
     background-color: white;
     border: none;
     padding: 5px 10px;    
 }
+.contact:hover{
+    background-color: pink;
+    color: black;
+}
 
+@media (max-width: 1023px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+
+}

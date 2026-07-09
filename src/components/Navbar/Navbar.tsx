@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Navbar.module.css'
 import { Text } from '../Text/Text'
 import Button from '../Button/Button'
@@ -15,10 +14,9 @@ export const Navbar = () => {
                <a href="/#" className={styles.link}>Parties</a>
                <a href="/#" className={styles.link}>Contact</a>
                <div className={styles.contact}>
-                <Button  className={styles['.contact']} text={'06868 8989 Now'}/>
-                
-                
+                <Button  className={styles['contact']} text={'06868 8989 Now'}/>
                </div>
+               
             </div>
 
         </div>
