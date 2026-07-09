@@ -7,29 +7,27 @@ import pinkMacans from '../../assets/pink-macans.jpg'
 import styles from './Content.module.css'
 import { Text } from '../Text/Text'
 import Button from '../Button/Button'
+import ImageCard from '../ImageCard/ImageCard'
 
 
 export const Content = () => {
   return (
     <>
+     
+     
+
     <div className={styles['content2']}>
       <div className={styles['content2-title']}  >
         <Text variant='h1' >Delight in Every Bite!</Text>
       </div>
 
       <div  className={styles['cards']}>
+        
          <div className={styles['card']}>
-           <img  src={creamCake} alt="Creamy Cake"/>
+          <ImageCard src={creamCake} alt="Creamy Cake" />
+          <ImageCard src={whiteCake} alt="White Cake" />
+          <ImageCard src={cupCake} alt="Cup Cake" />
          </div>
-
-         <div className={styles['card']}>
-          <img  src={whiteCake} alt="White Cake"/> 
-         </div>
-
-         <div className={styles['card']}>
-          <img src={cupCake} alt="Cup Cake"/>       
-         </div>
-
       </div>
          
     </div>
@@ -78,9 +76,9 @@ export const Content = () => {
           </div>
 
           <div className={styles['content3-cards']}>
-            <img src={holiday} alt="Holiday sale image"/>
-            <img src={cakeCake} alt="Biscuits" />
-            <img src={pinkMacans} alt=" Pink cake"/>
+             <ImageCard src={holiday} alt="Holiday sale image" />
+              <ImageCard src={cakeCake} alt="Biscuits" />
+              <ImageCard src={pinkMacans} alt="Pink cake" />
           </div>
           
         </div>
