@@ -24,9 +24,17 @@
 }
 
 .hero-button{
-    background-color: #FF69B4;
+    background-color: #c78b95;
     padding: 5px 10px; 
     border: none;  
     color: white;
     margin-top: 13px;
+}
+@media(max-width: 767px){
+    .hero-text{
+        justify-content: flex-start;
+        background-color: blueviolet;
+
+    }
+
 }

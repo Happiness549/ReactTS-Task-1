@@ -4,7 +4,7 @@ nav{
     height: 60px;
     width: 100% ;   
     display: flex;
-    background-color: lightpink;
+    background-color: #F7E2E2;
     
 }
 .logo{
@@ -36,8 +36,7 @@ nav{
     color: white;
 }
 
-.contact{
-    background-color: white;
+.contact{  
     border: none;
     padding: 5px 10px;    
 }
@@ -46,13 +45,19 @@ nav{
     color: black;
 }
 
-@media (max-width: 1023px){
-    nav{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem;
+@media (max-width: 768px){
+    .link{
+        flex-wrap: wrap;  
+        gap: 1px;
+        padding: 1px;
+        height: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
-
+    .logo{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .contact{
+        height: 5px;
+        margin-bottom: 60px;
+    }
 }

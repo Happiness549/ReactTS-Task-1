@@ -17,22 +17,22 @@
 }
 
 .contentBtn{
-    background-color: pink;
+    background-color: #DDBFC4;
     padding: 5px 10px; 
     border: none;  
 }
 .button{
-    background-color:pink ;
+    background-color: #FFCCCC;
     border: none;
     padding: 5px 10px;
 }
 .buttonT{
-    background-color: #FF69B4;
+    background-color: #C95C7A;
     padding: 5px 10px;
     border: none;
 }
 .content2{
-    background-color: lightpink;
+    background-color: #efc7c5;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -49,11 +49,12 @@
 
 .card{
     display: flex;
-    width: 300px;
+    width: 900px;
+    gap: 20px;
 }
 
 .card img{
-    width: 100%;
+    width: 300px;
     height: 300px;  
     object-fit: cover;
     gap: 20px;
@@ -62,7 +63,7 @@
 .content2-text{
      display : flex;
      justify-content: center;
-     background-color: beige;
+     background-color: #FDFFF5;
      width: 100vw;
      gap: 16px
      
@@ -83,7 +84,12 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: #FDFFF5;
+
+}
+.content3-title{
+    color: #DAC395;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 .content3-cards{
@@ -95,23 +101,24 @@
 
 .content3-cards img{
     width: 300px;
-    height: 300px;
+    height: 400px;
     gap: 20px;
-
-
 }
 
 @media(max-width: 767px){
-    .cards{
+    .card{
         flex-direction: column;
         align-items: center;
+    }  
+    .content2-text{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;     
+    } 
+    .content3-cards{
+        flex-direction: column;
     }
-    .card{
-        width: 100%;
-        max-width: 350px;
-    }
-
-    
 }
 
 @media(max-width: 1023){
