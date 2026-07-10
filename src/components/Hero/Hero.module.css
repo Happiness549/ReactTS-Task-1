@@ -32,9 +32,12 @@
 }
 @media(max-width: 767px){
     .hero-text{
-        justify-content: flex-start;
-        background-color: blueviolet;
-
+         background-color: blue;
+         margin-top: 100px;
+         justify-content: center;
+         margin-left: 50%;
+         text-align: center;
+         align-items: center;    
     }
 
 }
