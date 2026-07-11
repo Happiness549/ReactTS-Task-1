@@ -61,6 +61,8 @@ footer{
         flex-direction: column;
         text-align: center;
         gap: 1rem;
-    
+        min-height: fit-content; 
+        
     }
+    
 }

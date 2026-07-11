@@ -119,6 +119,18 @@
     .content3-cards{
         flex-direction: column;
     }
+    .contentBtn{
+        height: 37px;
+        
+    }
+    .button{
+        height: 37px;
+        
+    }
+    .buttonT{
+        height: 40px;
+        
+    }
 }
 
 @media(max-width: 1023){
