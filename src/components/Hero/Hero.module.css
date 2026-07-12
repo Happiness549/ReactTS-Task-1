@@ -7,10 +7,6 @@
 }
 
 
-.hero{
-    position: relative; 
-}
-
 .hero-text{
     position: absolute;
     top: 60px;
@@ -30,14 +26,30 @@
     color: white;
     margin-top: 13px;
 }
-@media(max-width: 767px){
+
+@media(max-width: 768px){
+    
     .hero-text{
-         background-color: blue;
-         margin-top: 100px;
-         justify-content: center;
-         margin-left: 50%;
-         text-align: center;
-         align-items: center;    
+        padding-right: 50px;
+        margin-top: 14px;
+    }
+    .hero-button{
+        margin-bottom: 1rem;
     }
 
+
+}
+@media(min-width: 1024px){
+    
+    .hero-text{
+        padding-right: 130px;
+    }
+}
+@media(max-width:1280px){
+    .cake-image{
+        max-width: 1400px;
+    }
+    .hero-text{
+        padding-right: 250px;
+    }
 }

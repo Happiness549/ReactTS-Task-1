@@ -2,10 +2,12 @@ import styles from './Navbar.module.css'
 import { Text } from '../Text/Text'
 import Button from '../Button/Button'
 
+
 export const Navbar = () => {
   return (
     <nav>
-        <div className={styles.logo}>
+      
+           <div className={styles.logo}>
             <Text variant='span' style={{margin: 0}}>Palieyerie</Text> 
             <div className={styles.links}>
                <a href="/#" className={styles.link}>Home</a>
@@ -20,6 +22,9 @@ export const Navbar = () => {
             </div>
 
         </div>
+
+      
+     
     </nav>
   )
 }
