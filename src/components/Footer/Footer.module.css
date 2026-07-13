@@ -23,6 +23,7 @@ footer{
 .footer-h1{
     
     color: #DAC395;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -61,8 +62,9 @@ footer{
         flex-direction: column;
         text-align: center;
         gap: 1rem;
-        min-height: fit-content; 
-        
+        min-height: fit-content;    
     }
+
+    
     
 }
