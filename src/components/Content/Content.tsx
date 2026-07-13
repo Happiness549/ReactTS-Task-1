@@ -18,7 +18,7 @@ export const Content = () => {
 
     <div className={styles['content2']}>
       <div className={styles['content2-title']}  >
-        <Text variant='h1' >Delight in Every Bite!</Text>
+        <Text variant='h1' >Delight in every Bite!</Text>
       </div>
 
       <div  className={styles['cards']}>
@@ -37,10 +37,9 @@ export const Content = () => {
           <div className={styles['content2-text1']} >
            <Text variant='h2'>Custom Cakes</Text>
            <Text variant='p' >
-            classic butter cake but with Japanese techniques applied for the most plush, <br />
-             soft and moist yellow cake like you’ve never had before. <br />
-             This professional bakery style cake stays fresh and moist for 4 days — <br />
-             that’s unheard of! Use the same batter for perfect Vanilla Cupcakes. 
+            classic butter cake but with Japanese techniques applied 
+             soft and moist <br /> yellow cake like  you’ve never. 
+             
            </Text>
            <Button  className={styles['button']} text={'Order Now'}/>
           </div>
@@ -48,10 +47,9 @@ export const Content = () => {
         <div className={styles['content2-text1']}>
          <Text variant='h2'>Macaroins</Text>
              <Text variant='p'>
-               This vanilla strawberry cake is going to be your new go-to birthday cake! <br />
-               It has soft and fluffy vanilla cake layers sandwiched with a homemade strawberry filling. <br />
-               It’s then frosted with strawberry buttercream that’s naturally pink! This vanilla cake with fresh <br />
-               strawberry filling is perfect all spring and summer long 
+               This vanilla strawberry cake is going to be <br /> your new go-to birthday cake! <br />
+               It has soft and fluffy vanilla. 
+              
             </Text>
              <Button  className={styles['button']} text={'Order Now'}/>
         </div>
@@ -59,9 +57,8 @@ export const Content = () => {
           <div className={styles['content2-text1']}>
             <Text variant='h2'>Cupcakes collection</Text>
                 <Text variant='p'>
-                  News flash: it's a new, limited edition flavour! <br />
-                  A delicious strawberry buttercream filling, sandwiched between two perfectly <br />
-                  baked lilac shells & decorated with sprinkles in the shape of a heart.
+                  News flash: it's a new, limited edition flavour! 
+                  A delicious strawberry buttercream filling. 
              </Text>
               <Button  className={styles['buttonT']} text={'Order Now'}/>
             

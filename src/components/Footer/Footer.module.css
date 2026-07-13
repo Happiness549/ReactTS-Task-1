@@ -15,24 +15,21 @@ footer{
     justify-content: center;
     margin: auto;
     padding: 25px;
+} 
 
-}
 footer{
     flex: 1;
 }
 .footer-h1{
-    
     color: #DAC395;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 .footer img{
     width: 200px;
     height: 100px;
-    
-
 }
+
 .icons{
     
     align-self: center;  
@@ -62,9 +59,7 @@ footer{
         flex-direction: column;
         text-align: center;
         gap: 1rem;
-        min-height: fit-content;    
-    }
-
-    
+        min-height: fit-content;     
+    }   
     
 }

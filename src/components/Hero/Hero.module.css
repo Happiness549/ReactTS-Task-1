@@ -36,15 +36,21 @@
     .hero-button{
         margin-bottom: 1rem;
     }
-
-
 }
+
+
 
 @media (width <= 459px) {
   .hero-text{
     margin: 0 auto;
     margin-top: 60px; 
   }
+}
+
+@media only screen and (min-width: 942px) {
+    .hero-text{
+      margin: auto;
+    }
 }
 
 @media(min-width: 1024px){

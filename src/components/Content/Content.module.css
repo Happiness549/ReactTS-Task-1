@@ -25,11 +25,13 @@
     background-color: #FFCCCC;
     border: none;
     padding: 5px 10px;
+    margin-top: 20px;
 }
 .buttonT{
     background-color: #C95C7A;
     padding: 5px 10px;
     border: none;
+    margin-top: 20px;
 }
 .content2{
     background-color: #efc7c5;
@@ -39,7 +41,11 @@
 }
 
 .content2-title{
-    text-align: center;   
+    text-align: center;  
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
 }
 .cards{
     display: flex;
@@ -55,7 +61,7 @@
 
 .card img{
     width: 300px;
-    height: 300px;  
+    height: 250px;  
     object-fit: cover;
     gap: 20px;
 }
@@ -70,9 +76,10 @@
 }
 
 .content2-text1{
-     flex: 1;
+    flex: 1;
     max-width: 300px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .content2-tetx2{
@@ -90,6 +97,7 @@
 .content3-title{
     color: #DAC395;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
 
 }
 .content3-cards{
@@ -97,6 +105,10 @@
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
+}
+.button-sale{
+   position: absolute;
+   
 }
 
 .content3-cards img{
@@ -130,6 +142,12 @@
     }
     .buttonT{
         height: 40px;
+        
+    }
+}
+
+@media only screen and (min-width: 942px) {
+    .content3-cards{
         
     }
 }
