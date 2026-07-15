@@ -38,6 +38,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    
 }
 
 .content2-title{
@@ -51,12 +52,14 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .card{
     display: flex;
     width: 900px;
     gap: 20px;
+    
 }
 
 .card img{
@@ -64,6 +67,7 @@
     height: 250px;  
     object-fit: cover;
     gap: 20px;
+    padding-bottom: 0;
 }
 
 .content2-text{
@@ -106,8 +110,11 @@
     margin-top: 20px;
     gap: 20px;
 }
-.button-sale{
+.button-card{
    position: absolute;
+   bottom: 0.5rem;
+   right: 1rem;
+   
    
 }
 
@@ -146,11 +153,7 @@
     }
 }
 
-@media only screen and (min-width: 942px) {
-    .content3-cards{
-        
-    }
-}
+
 
 @media(max-width: 1023){
     .cards{
